@@ -14,6 +14,7 @@ mod tests {
 
     #[test]
     fn twentieth() {
+        print!("{} ", factorial(20));
         assert_eq!(factorial(20), u32::MAX);
     }
 
