@@ -42,6 +42,7 @@ pub mod ticket {
     }
 }
 
+
 #[cfg(test)]
 mod tests {
     use super::ticket::Ticket;
